@@ -76,6 +76,9 @@ devDependencies:
   ts-loader:
     specifier: ^9.4.3
     version: 9.5.1(typescript@5.4.5)(webpack@5.91.0)
+  ts-mockito:
+    specifier: ^2.6.1
+    version: 2.6.1
   ts-node:
     specifier: ^10.9.1
     version: 10.9.2(@types/node@20.12.7)(typescript@5.4.5)
@@ -4857,6 +4860,12 @@ packages:
       source-map: 0.7.4
       typescript: 5.4.5
       webpack: 5.91.0
+    dev: true
+
+  /ts-mockito@2.6.1:
+    resolution: {integrity: sha512-qU9m/oEBQrKq5hwfbJ7MgmVN5Gu6lFnIGWvpxSjrqq6YYEVv+RwVFWySbZMBgazsWqv6ctAyVBpo9TmAxnOEKw==}
+    dependencies:
+      lodash: 4.17.21
     dev: true
 
   /ts-node@10.9.2(@types/node@20.12.7)(typescript@5.4.5):
